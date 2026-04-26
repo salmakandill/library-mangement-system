@@ -8,14 +8,19 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1
 {
-    public partial class admin_padge : Form
+    public partial class AdminProfile : Form
     {
-        public admin_padge()
+        public AdminProfile()
         {
             InitializeComponent();
         }
 
-        private void label7_Click(object sender, EventArgs e)
+        private void button14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

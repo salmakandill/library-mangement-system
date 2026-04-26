@@ -3,6 +3,7 @@ D:\projects of visual studio\WinFormsApp1\WinFormsApp1\bin\Debug\net10.0-windows
 D:\projects of visual studio\WinFormsApp1\WinFormsApp1\bin\Debug\net10.0-windows\WinFormsApp1.runtimeconfig.json
 D:\projects of visual studio\WinFormsApp1\WinFormsApp1\bin\Debug\net10.0-windows\WinFormsApp1.dll
 D:\projects of visual studio\WinFormsApp1\WinFormsApp1\bin\Debug\net10.0-windows\WinFormsApp1.pdb
+D:\projects of visual studio\WinFormsApp1\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.AdminProfile.resources
 D:\projects of visual studio\WinFormsApp1\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.Form1.resources
 D:\projects of visual studio\WinFormsApp1\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.Properties.Resources.resources
 D:\projects of visual studio\WinFormsApp1\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.csproj.GenerateResource.cache
@@ -10,8 +11,10 @@ D:\projects of visual studio\WinFormsApp1\WinFormsApp1\obj\Debug\net10.0-windows
 D:\projects of visual studio\WinFormsApp1\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
 D:\projects of visual studio\WinFormsApp1\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.AssemblyInfo.cs
 D:\projects of visual studio\WinFormsApp1\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+D:\projects of visual studio\WinFormsApp1\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.sourcelink.json
 D:\projects of visual studio\WinFormsApp1\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.dll
 D:\projects of visual studio\WinFormsApp1\WinFormsApp1\obj\Debug\net10.0-windows\refint\WinFormsApp1.dll
 D:\projects of visual studio\WinFormsApp1\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.pdb
 D:\projects of visual studio\WinFormsApp1\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.genruntimeconfig.cache
 D:\projects of visual studio\WinFormsApp1\WinFormsApp1\obj\Debug\net10.0-windows\ref\WinFormsApp1.dll
+D:\projects of visual studio\WinFormsApp1\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.AdminHome.resources
