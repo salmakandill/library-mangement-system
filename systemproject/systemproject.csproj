@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,19 +46,34 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WinFormsApp1">
+      <HintPath>..\..\..\library-mangement-system-main\WinFormsApp1\bin\Debug\net10.0-windows\WinFormsApp1.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="admindashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admindashboard.Designer.cs">
+      <DependentUpon>admindashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Attendancedashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Attendancedashboard.Designer.cs">
       <DependentUpon>Attendancedashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="logindashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="logindashboard.Designer.cs">
+      <DependentUpon>logindashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="logo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="logo.Designer.cs">
+      <DependentUpon>logo.cs</DependentUpon>
     </Compile>
     <Compile Include="Studentdashboard.cs">
       <SubType>Form</SubType>
@@ -74,11 +89,17 @@
     <Compile Include="Archivedashboard.Designer.cs">
       <DependentUpon>Archivedashboard.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="admindashboard.resx">
+      <DependentUpon>admindashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Attendancedashboard.resx">
       <DependentUpon>Attendancedashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="logindashboard.resx">
+      <DependentUpon>logindashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="logo.resx">
+      <DependentUpon>logo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -138,6 +159,66 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\qr-code_4534399.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contracts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book-management.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\live.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_6025819467272621123_y.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_6025819467272621122_y.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_6025819467272621122_y.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_6025819467272621137_y.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_6025819467272621138_x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reference-icon-design-template-free-vector.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000_F_380301202_FJOsSNqAKrIhDuPvE1Rih6v3FnVDnxRt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1358621997-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1358621997-612x612.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\860338-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1240352.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -19,8 +19,13 @@ namespace systemproject
 
         private void Studentdashboard_Load(object sender, EventArgs e)
         {
-            panel2.BackColor = Color.FromArgb(120, 255, 255, 255);
-            panel3.BackColor = Color.FromArgb(120, 255, 255, 255);
+            panel2.BackColor = Color.FromArgb(50,255,255,255);
+            panel3.BackColor = Color.FromArgb(50, 255, 255, 255);
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
